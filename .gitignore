@@ -1,0 +1,23 @@
+# Shell history
+.zsh_history
+.bash_history
+
+# Secrets / local overrides (good pattern to adopt)
+**/local.*
+**/*.local
+**/.env
+**/secrets/**
+
+# Never commit private SSH keys
+.ssh/id_*
+.ssh/*.pem
+
+# OS/editor noise
+.DS_Store
+
+# VS Code ignore directories
+.config/Code/User/workspaceStorage/
+.config/Code/Cache/
+.config/Code/CachedData/
+.config/Code/GPUCache/
+.config/Code/logs/

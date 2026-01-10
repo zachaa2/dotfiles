@@ -1,0 +1,7 @@
+{
+    "pylint.args": [
+        "\"pylint.args\": [\"disable=C0105\"]"
+    ],
+    "extensions.ignoreRecommendations": true,
+    "typescript.preferences.includePackageJsonAutoImports": "on"
+}
