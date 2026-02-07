@@ -49,7 +49,7 @@ install_pacman() {
   local SUDO; SUDO="$(need_sudo)"
 
   log "Using pacman (Arch)"
-  $SUDO pacman -Syu --noconfirm --needed
+  $SUDO pacman -Syu --noconfirm
 
   # shellcheck disable=SC2046
   $SUDO pacman -S --noconfirm --needed $(read_list "$PACMAN_LIST")
@@ -78,6 +78,9 @@ ensure_flatpak() {
 }
 
 install_flatpaks() {
+  log "Flatpak install disabled (temporary)"
+  return 0  
+
   [[ -f "$FLATPAK_LIST" ]] || { log "No flatpak list found (skipping)"; return 0; }
 
   ensure_flatpak
