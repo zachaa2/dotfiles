@@ -1,9 +1,7 @@
 ffmpeg
-git
 nodejs
 npm
-python
-python-pip
 stow
 tree
 zsh
+fastfetch
