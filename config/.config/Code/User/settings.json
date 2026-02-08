@@ -3,5 +3,6 @@
         "\"pylint.args\": [\"disable=C0105\"]"
     ],
     "extensions.ignoreRecommendations": true,
-    "typescript.preferences.includePackageJsonAutoImports": "on"
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "workbench.editor.empty.hint": "hidden"
 }
