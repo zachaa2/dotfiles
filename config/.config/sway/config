@@ -24,7 +24,7 @@ set $file_explorer nautilus
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # WALLPAPER
-output * bg /home/aaron/Pictures/wallpapers/ALCHEMY-clean.png fill
+output * bg /home/aaron/.dotfiles/assets/wallpapers/ALCHEMY-clean.png fill
 #
 # Example configuration:
 #
