@@ -1,3 +1,4 @@
+# some init software
 ffmpeg
 nodejs
 npm
@@ -5,3 +6,14 @@ stow
 tree
 zsh
 fastfetch
+
+# other software
+kitty # terminal emulator
+
+# sway wm stuff
+sway
+waybar
+wofi
+nemo
+swayidle # cant remember if this came with sway
+swaylock-effects-git # only on the AUR via paru/yay

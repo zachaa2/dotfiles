@@ -1,6 +1,8 @@
 # dotfiles
 
-Some of my dotfiles and other assets + resources I use. Configs and other resources should be compatible across common linux distros.
+Some of my dotfiles and other assets + resources I use. Configs and other resources should be compatible across common linux distros. 
+
+Set up an SSH key with GitHub and clone into .dotfiles via ```git clone git@github.com:zachaa2/dotfiles.git ~/.dotfiles```
 
 ## Layout
 
