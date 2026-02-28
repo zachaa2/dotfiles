@@ -24,7 +24,7 @@ set $file_explorer nautilus
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # WALLPAPER
-output * bg /home/aaron/.dotfiles/assets/wallpapers/wallhaven-9dm39x.jpg fill
+output * bg /home/aaron/.dotfiles/assets/wallpapers/eon_duo_edited.jpg stretch
 #
 # Example configuration:
 #
