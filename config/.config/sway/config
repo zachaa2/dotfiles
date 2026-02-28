@@ -24,7 +24,7 @@ set $file_explorer nautilus
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # WALLPAPER
-output * bg /home/aaron/.dotfiles/assets/wallpapers/ALCHEMY-clean.png fill
+output * bg /home/aaron/.dotfiles/assets/wallpapers/wallhaven-9dm39x.jpg fill
 #
 # Example configuration:
 #
@@ -42,11 +42,11 @@ default_floating_border pixel 1px
 # The border colors:
 
 #                       border  bg      tex     ind     child border
-client.focused          #d8cab8 #141216 #d8cab8 #d8cab8 #d8cab8
-client.focused_inactive #AC82E9 #141216 #d8cab8 #AC82E9 #AC82E9
-client.unfocused        #AC82E9 #141216 #d8cab8 #AC82E9 #AC82E9
-client.urgent           #fcb167 #141216 #d8cab8 #fcb167 #fcb167
-client.placeholder      #AC82E9 #141216 #d8cab8 #AC82E9 #AC82E9
+client.focused          #F8F0E1 #01284A #F8F0E1 #F8F0E1 #F8F0E1
+client.focused_inactive #52B3BC #01284A #F8F0E1 #52B3BC #52B3BC
+client.unfocused        #52B3BC #01284A #F8F0E1 #52B3BC #52B3BC
+client.urgent           #EF5F31 #01284A #F8F0E1 #EF5F31 #EF5F31
+client.placeholder      #52B3BC #01284A #F8F0E1 #52B3BC #52B3BC
 
 ### Idle configuration
 #
@@ -73,12 +73,12 @@ bindsym --release $mod+Control+s exec $lock
 #
 # Example configuration:
 #
-#   input type:touchpad {
-#       dwt enabled
-#       tap enabled
-#       natural_scroll enabled
-#       middle_emulation enabled
-#   }
+  input type:touchpad {
+    #   dwt enabled
+    #   tap enabled
+      natural_scroll enabled
+    #   middle_emulation enabled
+  }
 #
 #   input type:keyboard {
 #       xkb_layout "eu"
