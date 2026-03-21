@@ -1,6 +1,6 @@
 # Background image + scaling
-image=/home/aaron/.dotfiles/assets/wallpapers/eon_duo_edited.jpg
-scaling=stretch
+image=/home/aaron/.dotfiles/assets/wallpapers/eon_duo_gruvbox.jpg
+scaling=fill
 
 # other effects
 clock
