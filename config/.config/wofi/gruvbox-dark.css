@@ -1,24 +1,25 @@
+/* Gruvbox Dark Wofi Theme */
+
 * {
-  font-family: Maple Mono;
   background: transparent;
-  color: #F8F0E1;
+  color: #ebdbb2;
 }
 
 #window {
-  color: #F8F0E1;
-  border-color: #F8F0E1;
+  color: #ebdbb2;
+  border-color: #7c6f64;
   border-style: solid;
   border-width: 1px;
 
-  /*Linear gradient background instead of standard background, because it makes cleaner border-radius cuts, issa bug :p*/
-  background-image: linear-gradient(to bottom, #001427 100%);
+  /* solid background via gradient for cleaner rounded corners */
+  background-image: linear-gradient(to bottom, #282828 100%);
   border-radius: 14px;
 }
 
 #scroll {
   border-top-style: solid;
   border-width: 1px;
-  border-color: #F8F0E1;
+  border-color: #3c3836;
 }
 
 #inner-box {
@@ -27,27 +28,27 @@
 
 #entry {
   border-style: none;
-  border-color: #F8F0E1;
-  color: #F8F0E1;
+  border-color: #ebdbb2;
+  color: #ebdbb2;
   padding: 6px;
   margin-bottom: 8px;
   margin-left: 12px;
-  margin-right: 12;
+  margin-right: 12px;
 
   border-radius: 12px;
 }
 
 #entry:selected {
-  background: #004068;
-  color: #F8F0E1;
+  background: #458588;
+  color: #fbf1c7;
   font-weight: bold;
   outline: none;
 }
 
 #input {
-  background-color: #001427;
-  color: #F8F0E1;
-  border-color: #F8F0E1;
+  background-color: #1d2021;
+  color: #ebdbb2;
+  border-color: #7c6f64;
 
   border-style: none;
   border-bottom-style: solid;
@@ -55,7 +56,7 @@
 
   font-style: normal;
 
-  border-radius: 8;
+  border-radius: 8px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 
@@ -64,9 +65,8 @@
 }
 
 #input:focus {
-  background: #004068;
-  background-color: #004068;
-  border-color: #52B3BC;
+  background: #3c3836;
+  border-color: #83a598;
   font-style: italic;
 }
 
