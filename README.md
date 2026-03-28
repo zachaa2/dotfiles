@@ -26,6 +26,20 @@ Set up an SSH key with GitHub and clone into .dotfiles via ```git clone git@gith
 - `bootstrap/`
   Help install and set up important system packages and flatpack apps (e.g., docker, stow, npm, a browset etc.)
 
+## Theme Resources
+
+Below are some common themes/pallates that are commonly used, easily available and most importantly look nice. There are links to resources to theme the system (e.g., gtk themes, icon themes etc.). 
+
+**NOTE:** You can use [gowall](https://github.com/Achno/gowall) to convert a wallpaper to some common color schemes (e.g., gruvbox, catppuccin etc.)
+
+### Gruvbox 
+
+Main gruvbox theme repo: https://github.com/morhetz/gruvbox
+
+GTK Gruvbox theme: https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme
+
+Gruvbox Icon Pack: https://github.com/SylEleuth/gruvbox-plus-icon-pack
+
 ## Bootstrap 
 
 This is mostly for me to maintain a list of packages that I would like on any system, as well as a method to install all of it easily. 

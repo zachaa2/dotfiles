@@ -10,6 +10,13 @@ fastfetch
 # other software
 kitty # terminal emulator
 
+ttf-jetbrains-mono-nerd # font
+
+brightnessctl # brightness
+pamixer # volume scroll
+pavucontrol # click to open audio control
+networkmanager # networkmanager stuff 
+
 # sway wm stuff
 sway
 waybar
