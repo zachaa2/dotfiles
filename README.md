@@ -2,7 +2,7 @@
 
 dotfiles and other assets + resources for arch linux using the sway window manager. Made on an EndeavourOS install. 
 
-Set up an SSH key with GitHub and clone into .dotfiles via ```git clone git@github.com:zachaa2/dotfiles.git ~/.dotfiles```
+Set up an SSH key with GitHub and clone into .dotfiles via ```git clone git@github.com:zachaa2/arch-sway.git ~/.dotfiles```
 
 ## Repository Layout
 
