@@ -29,7 +29,7 @@ include ~/.config/sway/config.d/theme
 exec_always --no-startup-id $HOME/.dotfiles/config/.config/sway/scripts/idle.sh
 
 # Manual lock
-bindsym --release $mod+Shift+Tab exec $lock
+bindsym --release $mod+Shift+Escape exec $lock
 
 ### Input configuration
 input type:touchpad {
